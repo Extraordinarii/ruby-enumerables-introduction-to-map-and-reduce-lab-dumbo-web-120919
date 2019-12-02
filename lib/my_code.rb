@@ -8,12 +8,11 @@ def map_to_negativize(array)
 end
 
 def map_to_no_change(array)
-  i = 0 
-  while i < array.length do 
-    
+ return array
 end 
 
 def map_to_double(array)
+  
 end 
 
 def map_to_square(array)
