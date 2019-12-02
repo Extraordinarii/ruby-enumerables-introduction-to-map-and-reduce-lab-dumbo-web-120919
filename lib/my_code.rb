@@ -17,7 +17,7 @@ def map_to_double(array)
   array[i] *= 2 
   i -= -1
 end 
-array
+return array
 end 
 
 def map_to_square(array)
@@ -26,7 +26,7 @@ def map_to_square(array)
     array[i] *= array[i]
     i -= -1
   end 
-  array
+  return array
 end 
 
 def reduce_to_total(array, starting_point = 0)
