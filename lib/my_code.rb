@@ -1,12 +1,11 @@
-def map_to_negativize(source,array)
-  new = []
-  i = 0 
-  while i < source_array.length do 
-    new.push(source_array[i] * - 1)
-    i += 1
-  end 
-return new
-end 
+def map_to_negativize(array)
+  index = 0
+  while index < array.length do
+    array[index] *= -1
+    index += 1
+  end
+  return array
+end
 
 def map_to_no_change(source_array)
 end 
