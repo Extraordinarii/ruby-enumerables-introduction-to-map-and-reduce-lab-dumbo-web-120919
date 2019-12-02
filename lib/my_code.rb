@@ -5,7 +5,7 @@ def map_to_negativize(source,array)
     new.push(source_array[i] * - 1)
     i -= -1
   end 
-  new
+return new
 end 
 
 def map_to_no_change(source_array)
